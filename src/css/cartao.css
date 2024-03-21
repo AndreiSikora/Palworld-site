@@ -1,0 +1,75 @@
+.cartao-pal {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pal .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-pal .nome{
+    margin: 5px;
+}
+
+.cartao-pal .tipo{
+    font-size: 12px;
+    background-color:#eeb380;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pal .detalhes{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pal .cartao-imagem{ 
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pal img{
+    max-height: 100%;
+}
+
+.cartao-pal .cartao-informacoes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 80px 100px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pal .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pal .cartao-informacoes .status, .cartao-pal .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pal .cartao-informacoes .habilidades ul li {
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pal.aberto{
+    display: block;
+}
+
+.tipo-terra {
+    background-image: url("https://www.charlieintel.com/cdn-image/wp-content/uploads/2024/02/14/Anuibis-base-Palworld.jpg?width=3840&quality=60&format=auto");
+    background-size: 100%;
+}   
